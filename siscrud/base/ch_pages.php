@@ -95,6 +95,50 @@
                 case 'excluir_cli':
                     include "sis/cliente/excluir_cli.php";
                    break;
+                   case "lista_serv":
+                    include "sis/servicos/lista_serv.php";
+                    break;
+                case "view_serv":
+                    include "sis/servicos/view_serv.php";
+                    break;
+                case "fedita_serv":
+                    include "sis/servicos/fedita_serv.php";
+                    break;
+                case "atualiza_serv":
+                    include "sis/servicos/atualiza_serv.php";
+                    break;
+                case "excluir_serv":
+                    include "sis/servicos/excluir_serv.php";
+                    break;
+                case "fadd_serv":
+                    include "sis/servicos/fadd_serv.php";
+                    break;
+                case "insere_serv":
+                    include "sis/servicos/insere_serv.php";
+                    break;
+
+                //servicos
+                case "lista_serv":
+                    include "sis/servicos/lista_serv.php";
+                    break;
+                case "view_serv":
+                    include "sis/servicos/view_serv.php";
+                    break;
+                case "fedita_serv":
+                    include "sis/servicos/fedita_serv.php";
+                    break;
+                case "atualiza_serv":
+                    include "sis/servicos/atualiza_serv.php";
+                    break;
+                case "excluir_serv":
+                    include "sis/servicos/excluir_serv.php";
+                    break;
+                case "fadd_serv":
+                    include "sis/servicos/fadd_serv.php";
+                    break;
+                case "insere_serv":
+                    include "sis/servicos/insere_serv.php";
+                    break;
                     
    
             default:

@@ -18,8 +18,8 @@
 				<?php
 					$quantidade = 5;
 
-					$pagina = (isset($_GET['pagina'])) ? (int)$_GET['pagina'] : 1;
-					$inicio = ($quantidade * $pagina) - $quantidade;
+					//$pagina = (isset($_GET['pagina'])) ? (int)$_GET['pagina'] : 1;
+					//$inicio = ($quantidade * $pagina) - $quantidade;
 
 					$pagina = (isset($_GET['pagina'])) ? (int)$_GET['pagina'] : 1;
 					$inicio = ($quantidade * $pagina) - $quantidade;

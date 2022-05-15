@@ -17,6 +17,10 @@
             <li class="nav-item">
                <a class="nav-link" href="?page=lista_cli">Cliente</a>
             </li>
+            <li class="nav-item">
+               <a class="nav-link" href="?page=lista_serv">Servicos</a>
+            </li>
+            
         </ul>
     </div>
 </nav>
