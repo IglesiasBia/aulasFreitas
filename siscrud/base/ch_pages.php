@@ -139,6 +139,28 @@
                 case "insere_serv":
                     include "sis/servicos/insere_serv.php";
                     break;
+                //Documentos
+                case "lista_doc":
+                    include "sis/documento/lista_doc.php";
+                    break;
+                case "view_doc":
+                    include "sis/documento/view_doc.php";
+                    break;
+                case "fedita_doc":
+                    include "sis/documento/fedita_doc.php";
+                    break;
+                case "atualiza_doc":
+                    include "sis/documento/atualiza_doc.php";
+                    break;
+                case "fadd_doc":
+                    include "sis/documento/fadd_doc.php";
+                    break;
+                case "insere_doc":
+                    include "sis/documento/insere_doc.php";
+                    break;
+                case "excluir_doc":
+                    include "sis/documento/excluir_doc.php";
+                    break;
                     
    
             default:
